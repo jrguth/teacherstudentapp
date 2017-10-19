@@ -20,6 +20,14 @@
 		CCBFAD141F99212900847B70 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD131F99212900847B70 /* ProfileViewController.swift */; };
 		CCBFAD161F99213A00847B70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD151F99213A00847B70 /* SettingsViewController.swift */; };
 		CCBFAD181F9921C200847B70 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD171F9921C200847B70 /* MessageViewController.swift */; };
+		CCBFAD1A1F9932C800847B70 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD191F9932C800847B70 /* loginViewController.swift */; };
+		CCBFAD1C1F9932E200847B70 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD1B1F9932E200847B70 /* SignUPViewController.swift */; };
+		CCBFAD1E1F99331300847B70 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */; };
+		CCBFAD201F993F7F00847B70 /* teacherDataBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */; };
+		CCBFAD221F993F9B00847B70 /* TeacherProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */; };
+		CCBFAD241F993FD000847B70 /* pendingSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */; };
+		CCBFAD261F993FEE00847B70 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD251F993FEE00847B70 /* SessionViewController.swift */; };
+		CCBFAD281F99412E00847B70 /* ConfirmSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,14 @@
 		CCBFAD131F99212900847B70 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CCBFAD151F99213A00847B70 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CCBFAD171F9921C200847B70 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		CCBFAD191F9932C800847B70 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		CCBFAD1B1F9932E200847B70 /* SignUPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teacherDataBaseViewController.swift; sourceTree = "<group>"; };
+		CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherProfileViewController.swift; sourceTree = "<group>"; };
+		CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pendingSessionsViewController.swift; sourceTree = "<group>"; };
+		CCBFAD251F993FEE00847B70 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSessionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +128,14 @@
 				CCBFACDE1F9913D800847B70 /* AppDelegate.swift */,
 				CCBFACE01F9913D800847B70 /* ViewController.swift */,
 				CCBFACE21F9913D800847B70 /* Main.storyboard */,
+				CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */,
+				CCBFAD251F993FEE00847B70 /* SessionViewController.swift */,
+				CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */,
+				CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */,
+				CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */,
+				CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */,
+				CCBFAD191F9932C800847B70 /* loginViewController.swift */,
+				CCBFAD1B1F9932E200847B70 /* SignUPViewController.swift */,
 				CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */,
 				CCBFAD111F99211700847B70 /* LearnViewController.swift */,
 				CCBFAD171F9921C200847B70 /* MessageViewController.swift */,
@@ -280,14 +304,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBFAD1C1F9932E200847B70 /* SignUPViewController.swift in Sources */,
 				CCBFAD141F99212900847B70 /* ProfileViewController.swift in Sources */,
 				CCBFAD121F99211700847B70 /* LearnViewController.swift in Sources */,
+				CCBFAD261F993FEE00847B70 /* SessionViewController.swift in Sources */,
 				CCBFAD181F9921C200847B70 /* MessageViewController.swift in Sources */,
 				CCBFAD161F99213A00847B70 /* SettingsViewController.swift in Sources */,
+				CCBFAD281F99412E00847B70 /* ConfirmSessionViewController.swift in Sources */,
 				CCBFAD101F99210400847B70 /* teacherViewConroller.swift in Sources */,
+				CCBFAD221F993F9B00847B70 /* TeacherProfileViewController.swift in Sources */,
+				CCBFAD201F993F7F00847B70 /* teacherDataBaseViewController.swift in Sources */,
 				CCBFACE11F9913D800847B70 /* ViewController.swift in Sources */,
 				CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */,
 				CCBFACE71F9913D800847B70 /* teacherstudent.xcdatamodeld in Sources */,
+				CCBFAD241F993FD000847B70 /* pendingSessionsViewController.swift in Sources */,
+				CCBFAD1E1F99331300847B70 /* ForgotViewController.swift in Sources */,
+				CCBFAD1A1F9932C800847B70 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
