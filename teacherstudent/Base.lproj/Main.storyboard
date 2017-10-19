@@ -29,7 +29,7 @@
         <!--Learn-->
         <scene sceneID="SOW-U7-Lw4">
             <objects>
-                <viewController id="fVM-8R-4rQ" sceneMemberID="viewController">
+                <viewController id="fVM-8R-4rQ" customClass="LearnViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Ci-FL-Ufj"/>
                         <viewControllerLayoutGuide type="bottom" id="jBO-Lp-hpL"/>
@@ -57,7 +57,7 @@
         <!--teach-->
         <scene sceneID="G5M-p9-rwl">
             <objects>
-                <viewController id="rRM-Hh-B00" sceneMemberID="viewController">
+                <viewController id="rRM-Hh-B00" customClass="teacherViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gqu-zh-jIw"/>
                         <viewControllerLayoutGuide type="bottom" id="CgF-S2-KdL"/>
@@ -85,7 +85,7 @@
         <!--profile-->
         <scene sceneID="80F-UH-KOS">
             <objects>
-                <viewController id="8AK-I6-KhU" sceneMemberID="viewController">
+                <viewController id="8AK-I6-KhU" customClass="ProfileViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zGi-oo-zPa"/>
                         <viewControllerLayoutGuide type="bottom" id="SiU-EP-GMt"/>
@@ -113,7 +113,7 @@
         <!--settings-->
         <scene sceneID="0lc-GQ-ffD">
             <objects>
-                <viewController id="cSx-fB-h85" sceneMemberID="viewController">
+                <viewController id="cSx-fB-h85" customClass="SettingsViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0wk-uX-0Of"/>
                         <viewControllerLayoutGuide type="bottom" id="enf-TZ-a4o"/>
@@ -141,7 +141,7 @@
         <!--message-->
         <scene sceneID="lmp-Br-Gze">
             <objects>
-                <viewController id="1qI-cT-QWk" sceneMemberID="viewController">
+                <viewController id="1qI-cT-QWk" customClass="MessageViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="myP-Ks-EdO"/>
                         <viewControllerLayoutGuide type="bottom" id="Zw7-lU-GfM"/>
