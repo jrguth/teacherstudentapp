@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FxC-UF-h45">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xd5-n1-tFa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -195,14 +195,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAV-BC-MUF">
-                                <rect key="frame" x="137" y="500" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="search"/>
-                                <connections>
-                                    <action selector="seaching:" destination="fVM-8R-4rQ" eventType="touchUpInside" id="goc-9L-YdL"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="subject search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMa-3L-MDl">
                                 <rect key="frame" x="70" y="140" width="113" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -260,7 +252,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gxs-bo-BwQ">
-                                <rect key="frame" x="-2" y="388" width="375" height="44"/>
+                                <rect key="frame" x="-16" y="0.0" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="rU6-IN-xAY">
@@ -268,6 +260,14 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAV-BC-MUF">
+                                <rect key="frame" x="123" y="424" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="search"/>
+                                <connections>
+                                    <action selector="seaching:" destination="fVM-8R-4rQ" eventType="touchUpInside" id="goc-9L-YdL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -421,7 +421,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Teacher" id="hsL-3B-BZT">
-                                        <barButtonItem key="leftBarButtonItem" title="plus" id="mdz-FF-gel"/>
+                                        <barButtonItem key="leftBarButtonItem" title="plus" id="mdz-FF-gel">
+                                            <connections>
+                                                <segue destination="HeA-QP-IqR" kind="show" id="M5E-3m-6P2"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="note" id="3p3-vB-Zuf">
                                             <connections>
                                                 <segue destination="qU8-6r-swu" kind="popoverPresentation" popoverAnchorBarButtonItem="3p3-vB-Zuf" id="aQW-sg-NmT">
@@ -444,20 +448,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elS-gy-pdJ">
-                                <rect key="frame" x="38" y="193" width="31" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="teach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMG-dy-Cc2">
-                                <rect key="frame" x="156" y="90" width="43" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -466,6 +456,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="igV-zk-Pjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1629.5999999999999" y="1172.5637181409297"/>
+        </scene>
+        <!--Skill View Controller-->
+        <scene sceneID="HUG-AS-UPz">
+            <objects>
+                <viewController id="HeA-QP-IqR" customClass="SkillViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LBR-ef-hxH"/>
+                        <viewControllerLayoutGuide type="bottom" id="hcv-KD-pJu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KnL-II-i6o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elS-gy-pdJ">
+                                <rect key="frame" x="84" y="120" width="31" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="teach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMG-dy-Cc2">
+                                <rect key="frame" x="190" y="68" width="43" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cfL-yi-ih4">
+                                <rect key="frame" x="-16" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="ZEn-rQ-EEf">
+                                        <barButtonItem key="leftBarButtonItem" title="cancle" id="hag-Nx-WfZ">
+                                            <connections>
+                                                <segue destination="rRM-Hh-B00" kind="showDetail" id="7mZ-yy-6jx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JbK-Xv-ndB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2479" y="1224"/>
         </scene>
         <!--profile-->
         <scene sceneID="80F-UH-KOS">
@@ -523,7 +560,7 @@
                                     <navigationItem title="Session" id="DZG-WM-9us">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="5OE-PL-HFj">
                                             <connections>
-                                                <segue destination="8AK-I6-KhU" kind="show" id="6QT-PW-u7P"/>
+                                                <segue destination="8AK-I6-KhU" kind="presentation" id="gDa-AN-dio"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="rP3-ny-1hg"/>
@@ -877,11 +914,12 @@
         <image name="icons8-User-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="P2b-ev-WGt"/>
-        <segue reference="OJS-NI-mAa"/>
-        <segue reference="6QT-PW-u7P"/>
+        <segue reference="gDa-AN-dio"/>
         <segue reference="8O3-b2-Uqz"/>
+        <segue reference="gvV-Wk-AeV"/>
+        <segue reference="17j-o8-xmW"/>
+        <segue reference="7mZ-yy-6jx"/>
+        <segue reference="aQW-sg-NmT"/>
         <segue reference="Gwc-j9-Vyf"/>
-        <segue reference="ZhQ-3w-5qn"/>
     </inferredMetricsTieBreakers>
 </document>
