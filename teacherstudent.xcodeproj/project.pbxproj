@@ -15,6 +15,11 @@
 		CCBFACEC1F9913D800847B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBFACEA1F9913D800847B70 /* LaunchScreen.storyboard */; };
 		CCBFACF71F9913D800847B70 /* teacherstudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFACF61F9913D800847B70 /* teacherstudentTests.swift */; };
 		CCBFAD021F9913D800847B70 /* teacherstudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD011F9913D800847B70 /* teacherstudentUITests.swift */; };
+		CCBFAD101F99210400847B70 /* teacherViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */; };
+		CCBFAD121F99211700847B70 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD111F99211700847B70 /* LearnViewController.swift */; };
+		CCBFAD141F99212900847B70 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD131F99212900847B70 /* ProfileViewController.swift */; };
+		CCBFAD161F99213A00847B70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD151F99213A00847B70 /* SettingsViewController.swift */; };
+		CCBFAD181F9921C200847B70 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD171F9921C200847B70 /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		CCBFACFD1F9913D800847B70 /* teacherstudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teacherstudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBFAD011F9913D800847B70 /* teacherstudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teacherstudentUITests.swift; sourceTree = "<group>"; };
 		CCBFAD031F9913D800847B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teacherViewConroller.swift; sourceTree = "<group>"; };
+		CCBFAD111F99211700847B70 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		CCBFAD131F99212900847B70 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CCBFAD151F99213A00847B70 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CCBFAD171F9921C200847B70 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				CCBFACDE1F9913D800847B70 /* AppDelegate.swift */,
 				CCBFACE01F9913D800847B70 /* ViewController.swift */,
 				CCBFACE21F9913D800847B70 /* Main.storyboard */,
+				CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */,
+				CCBFAD111F99211700847B70 /* LearnViewController.swift */,
+				CCBFAD171F9921C200847B70 /* MessageViewController.swift */,
+				CCBFAD131F99212900847B70 /* ProfileViewController.swift */,
+				CCBFAD151F99213A00847B70 /* SettingsViewController.swift */,
 				CCBFACE81F9913D800847B70 /* Assets.xcassets */,
 				CCBFACEA1F9913D800847B70 /* LaunchScreen.storyboard */,
 				CCBFACED1F9913D800847B70 /* Info.plist */,
@@ -265,6 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBFAD141F99212900847B70 /* ProfileViewController.swift in Sources */,
+				CCBFAD121F99211700847B70 /* LearnViewController.swift in Sources */,
+				CCBFAD181F9921C200847B70 /* MessageViewController.swift in Sources */,
+				CCBFAD161F99213A00847B70 /* SettingsViewController.swift in Sources */,
+				CCBFAD101F99210400847B70 /* teacherViewConroller.swift in Sources */,
 				CCBFACE11F9913D800847B70 /* ViewController.swift in Sources */,
 				CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */,
 				CCBFACE71F9913D800847B70 /* teacherstudent.xcdatamodeld in Sources */,
@@ -520,6 +540,7 @@
 				CCBFAD081F9913D800847B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCBFAD091F9913D800847B70 /* Build configuration list for PBXNativeTarget "teacherstudentTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +549,7 @@
 				CCBFAD0B1F9913D800847B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCBFAD0C1F9913D800847B70 /* Build configuration list for PBXNativeTarget "teacherstudentUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +558,7 @@
 				CCBFAD0E1F9913D800847B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

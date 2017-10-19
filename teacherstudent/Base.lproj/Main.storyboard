@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xd5-n1-tFa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -26,7 +26,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Learn-->
         <scene sceneID="SOW-U7-Lw4">
             <objects>
                 <viewController id="fVM-8R-4rQ" sceneMemberID="viewController">
@@ -37,12 +37,163 @@
                     <view key="view" contentMode="scaleToFill" id="3o5-IB-772">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="learn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEq-da-re9">
+                                <rect key="frame" x="166" y="250" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Learn" image="icons8-Learning-50" id="GtK-Sr-Q9f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLd-JV-0Ca" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="56"/>
+            <point key="canvasLocation" x="836" y="35"/>
+        </scene>
+        <!--teach-->
+        <scene sceneID="G5M-p9-rwl">
+            <objects>
+                <viewController id="rRM-Hh-B00" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gqu-zh-jIw"/>
+                        <viewControllerLayoutGuide type="bottom" id="CgF-S2-KdL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iIB-Km-33k">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="teach" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMG-dy-Cc2">
+                                <rect key="frame" x="128" y="345" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="teach" image="icons8-Teacher Hiring-50" id="1gR-vF-ALk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igV-zk-Pjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1631" y="1173"/>
+        </scene>
+        <!--profile-->
+        <scene sceneID="80F-UH-KOS">
+            <objects>
+                <viewController id="8AK-I6-KhU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zGi-oo-zPa"/>
+                        <viewControllerLayoutGuide type="bottom" id="SiU-EP-GMt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7ok-gR-kWZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqu-W9-LMi">
+                                <rect key="frame" x="140" y="277" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="profile" image="icons8-User-50" id="wpX-4Z-EEb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ovp-7F-VRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1629.5999999999999" y="517.6911544227886"/>
+        </scene>
+        <!--settings-->
+        <scene sceneID="0lc-GQ-ffD">
+            <objects>
+                <viewController id="cSx-fB-h85" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0wk-uX-0Of"/>
+                        <viewControllerLayoutGuide type="bottom" id="enf-TZ-a4o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JmI-ZL-Ff6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLP-8d-FdV">
+                                <rect key="frame" x="257" y="397" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="settings" image="icons8-Settings-50" selectedImage="icons8-Settings-50" id="ljh-g9-DFH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ylh-k9-gxa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-420" y="864"/>
+        </scene>
+        <!--message-->
+        <scene sceneID="lmp-Br-Gze">
+            <objects>
+                <viewController id="1qI-cT-QWk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="myP-Ks-EdO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zw7-lU-GfM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uuT-ia-V85">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooK-pv-aTq">
+                                <rect key="frame" x="166" y="221" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="message" image="icons8-Message-50" id="ITM-5d-HRk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GKb-gM-feG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17" y="1544"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="c4B-FS-19V">
+            <objects>
+                <tabBarController id="Xd5-n1-tFa" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="jJA-Hz-rAT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8AK-I6-KhU" kind="relationship" relationship="viewControllers" id="heW-o0-Q6Z"/>
+                        <segue destination="rRM-Hh-B00" kind="relationship" relationship="viewControllers" id="6XI-YK-A2S"/>
+                        <segue destination="fVM-8R-4rQ" kind="relationship" relationship="viewControllers" id="gvV-Wk-AeV"/>
+                        <segue destination="1qI-cT-QWk" kind="relationship" relationship="viewControllers" id="6NG-Kj-1ai"/>
+                        <segue destination="cSx-fB-h85" kind="relationship" relationship="viewControllers" id="kgo-Y4-T5O"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sl0-ww-8G3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="514" y="807"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-Learning-50" width="50" height="50"/>
+        <image name="icons8-Message-50" width="50" height="50"/>
+        <image name="icons8-Settings-50" width="50" height="50"/>
+        <image name="icons8-Teacher Hiring-50" width="50" height="50"/>
+        <image name="icons8-User-50" width="50" height="50"/>
+    </resources>
 </document>
