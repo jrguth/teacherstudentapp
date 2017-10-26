@@ -803,7 +803,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cLs-DC-ZeE"/>
+                    <navigationItem key="navigationItem" id="cLs-DC-ZeE">
+                        <barButtonItem key="rightBarButtonItem" title="Request " id="acb-eB-cV4">
+                            <connections>
+                                <segue destination="edr-ER-KYT" kind="show" id="VDr-L0-H3t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tr-1f-rkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
