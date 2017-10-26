@@ -10,16 +10,41 @@
 import Foundation
 import UIKit
 
-class SkillViewController: UIViewController {
-    //test
+class SkillViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+
+    @IBOutlet weak var selectedSkillLabel: UILabel!
+    @IBOutlet weak var skillPickerView: UIPickerView!
+    
+    var selectedSkill: String?
+    
+    var skills: [String] = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        skills = ["Basketball", "Cooking", "Coding", "Mathematics", "Microsoft Office"]
+        selectedSkill = skills[0]
+        selectedSkillLabel.text = selectedSkill
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    // testing
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return skills.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return skills[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        selectedSkill = skills[row]
+        selectedSkillLabel.text = selectedSkill
+    }
+    
 }

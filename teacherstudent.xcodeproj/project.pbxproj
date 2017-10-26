@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8035836F1FA26FE8006BA002 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8035836E1FA26FE8006BA002 /* SkillTableViewCell.swift */; };
 		CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFACDE1F9913D800847B70 /* AppDelegate.swift */; };
 		CCBFACE11F9913D800847B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFACE01F9913D800847B70 /* ViewController.swift */; };
 		CCBFACE41F9913D800847B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBFACE21F9913D800847B70 /* Main.storyboard */; };
@@ -15,7 +16,7 @@
 		CCBFACEC1F9913D800847B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBFACEA1F9913D800847B70 /* LaunchScreen.storyboard */; };
 		CCBFACF71F9913D800847B70 /* teacherstudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFACF61F9913D800847B70 /* teacherstudentTests.swift */; };
 		CCBFAD021F9913D800847B70 /* teacherstudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD011F9913D800847B70 /* teacherstudentUITests.swift */; };
-		CCBFAD101F99210400847B70 /* teacherViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */; };
+		CCBFAD101F99210400847B70 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD0F1F99210400847B70 /* TeacherViewController.swift */; };
 		CCBFAD121F99211700847B70 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD111F99211700847B70 /* LearnViewController.swift */; };
 		CCBFAD141F99212900847B70 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD131F99212900847B70 /* ProfileViewController.swift */; };
 		CCBFAD161F99213A00847B70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD151F99213A00847B70 /* SettingsViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8035836E1FA26FE8006BA002 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
 		CCBFACDB1F9913D800847B70 /* teacherstudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teacherstudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBFACDE1F9913D800847B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCBFACE01F9913D800847B70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +66,7 @@
 		CCBFACFD1F9913D800847B70 /* teacherstudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teacherstudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBFAD011F9913D800847B70 /* teacherstudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teacherstudentUITests.swift; sourceTree = "<group>"; };
 		CCBFAD031F9913D800847B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teacherViewConroller.swift; sourceTree = "<group>"; };
+		CCBFAD0F1F99210400847B70 /* TeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
 		CCBFAD111F99211700847B70 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		CCBFAD131F99212900847B70 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CCBFAD151F99213A00847B70 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -130,27 +132,28 @@
 			isa = PBXGroup;
 			children = (
 				CCBFACDE1F9913D800847B70 /* AppDelegate.swift */,
-				CCBFACE01F9913D800847B70 /* ViewController.swift */,
-				CCBFACE21F9913D800847B70 /* Main.storyboard */,
-				CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */,
-				CCBFAD291F9944BF00847B70 /* SkillViewController.swift */,
-				CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */,
-				CCBFAD251F993FEE00847B70 /* SessionViewController.swift */,
-				CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */,
-				CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */,
-				CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */,
-				CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */,
-				CCBFAD191F9932C800847B70 /* loginViewController.swift */,
-				CCBFAD1B1F9932E200847B70 /* SignUPViewController.swift */,
-				CCBFAD0F1F99210400847B70 /* teacherViewConroller.swift */,
-				CCBFAD111F99211700847B70 /* LearnViewController.swift */,
-				CCBFAD171F9921C200847B70 /* MessageViewController.swift */,
-				CCBFAD131F99212900847B70 /* ProfileViewController.swift */,
-				CCBFAD151F99213A00847B70 /* SettingsViewController.swift */,
 				CCBFACE81F9913D800847B70 /* Assets.xcassets */,
-				CCBFACEA1F9913D800847B70 /* LaunchScreen.storyboard */,
+				CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */,
+				CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */,
 				CCBFACED1F9913D800847B70 /* Info.plist */,
+				CCBFACEA1F9913D800847B70 /* LaunchScreen.storyboard */,
+				CCBFAD111F99211700847B70 /* LearnViewController.swift */,
+				CCBFAD191F9932C800847B70 /* loginViewController.swift */,
+				CCBFACE21F9913D800847B70 /* Main.storyboard */,
+				CCBFAD171F9921C200847B70 /* MessageViewController.swift */,
+				CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */,
+				CCBFAD131F99212900847B70 /* ProfileViewController.swift */,
+				CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */,
+				CCBFAD251F993FEE00847B70 /* SessionViewController.swift */,
+				CCBFAD151F99213A00847B70 /* SettingsViewController.swift */,
+				CCBFAD1B1F9932E200847B70 /* SignUPViewController.swift */,
+				CCBFAD291F9944BF00847B70 /* SkillViewController.swift */,
+				CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */,
+				CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */,
 				CCBFACE51F9913D800847B70 /* teacherstudent.xcdatamodeld */,
+				CCBFAD0F1F99210400847B70 /* TeacherViewController.swift */,
+				CCBFACE01F9913D800847B70 /* ViewController.swift */,
+				8035836E1FA26FE8006BA002 /* SkillTableViewCell.swift */,
 			);
 			path = teacherstudent;
 			sourceTree = "<group>";
@@ -316,8 +319,9 @@
 				CCBFAD261F993FEE00847B70 /* SessionViewController.swift in Sources */,
 				CCBFAD181F9921C200847B70 /* MessageViewController.swift in Sources */,
 				CCBFAD161F99213A00847B70 /* SettingsViewController.swift in Sources */,
+				8035836F1FA26FE8006BA002 /* SkillTableViewCell.swift in Sources */,
 				CCBFAD281F99412E00847B70 /* ConfirmSessionViewController.swift in Sources */,
-				CCBFAD101F99210400847B70 /* teacherViewConroller.swift in Sources */,
+				CCBFAD101F99210400847B70 /* TeacherViewController.swift in Sources */,
 				CCBFAD221F993F9B00847B70 /* TeacherProfileViewController.swift in Sources */,
 				CCBFAD201F993F7F00847B70 /* teacherDataBaseViewController.swift in Sources */,
 				CCBFAD691FA2410B00847B70 /* SessionHistroyViewController.swift in Sources */,
