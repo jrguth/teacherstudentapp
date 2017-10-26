@@ -29,6 +29,7 @@
 		CCBFAD261F993FEE00847B70 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD251F993FEE00847B70 /* SessionViewController.swift */; };
 		CCBFAD281F99412E00847B70 /* ConfirmSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */; };
 		CCBFAD2A1F9944BF00847B70 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD291F9944BF00847B70 /* SkillViewController.swift */; };
+		CCBFAD691FA2410B00847B70 /* SessionHistroyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		CCBFAD251F993FEE00847B70 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSessionViewController.swift; sourceTree = "<group>"; };
 		CCBFAD291F9944BF00847B70 /* SkillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionHistroyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				CCBFACDE1F9913D800847B70 /* AppDelegate.swift */,
 				CCBFACE01F9913D800847B70 /* ViewController.swift */,
 				CCBFACE21F9913D800847B70 /* Main.storyboard */,
+				CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */,
 				CCBFAD291F9944BF00847B70 /* SkillViewController.swift */,
 				CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */,
 				CCBFAD251F993FEE00847B70 /* SessionViewController.swift */,
@@ -317,6 +320,7 @@
 				CCBFAD101F99210400847B70 /* teacherViewConroller.swift in Sources */,
 				CCBFAD221F993F9B00847B70 /* TeacherProfileViewController.swift in Sources */,
 				CCBFAD201F993F7F00847B70 /* teacherDataBaseViewController.swift in Sources */,
+				CCBFAD691FA2410B00847B70 /* SessionHistroyViewController.swift in Sources */,
 				CCBFACE11F9913D800847B70 /* ViewController.swift in Sources */,
 				CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */,
 				CCBFACE71F9913D800847B70 /* teacherstudent.xcdatamodeld in Sources */,
