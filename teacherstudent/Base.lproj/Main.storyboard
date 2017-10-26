@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xd5-n1-tFa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xd5-n1-tFa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -158,25 +158,6 @@
             </objects>
             <point key="canvasLocation" x="-1585" y="-855"/>
         </scene>
-        <!--Pending Sessions View Controller-->
-        <scene sceneID="gLV-uT-Lp2">
-            <objects>
-                <viewController id="Lck-Bj-fZO" customClass="pendingSessionsViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xQi-eg-sv6"/>
-                        <viewControllerLayoutGuide type="bottom" id="84j-gl-Kom"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XXt-3d-duj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="6wC-5T-eW6"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="o8L-oE-KUp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2134" y="543"/>
-        </scene>
         <!--Learn View Controller-->
         <scene sceneID="SOW-U7-Lw4">
             <objects>
@@ -276,7 +257,7 @@
                     <navigationItem key="navigationItem" id="e8G-DS-vD2">
                         <barButtonItem key="rightBarButtonItem" title="Notes" id="Gjf-Rs-4xK">
                             <connections>
-                                <segue destination="Lck-Bj-fZO" kind="push" id="1C7-cb-M7d"/>
+                                <segue destination="qU8-6r-swu" kind="push" id="uuK-AE-nV1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -557,7 +538,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="note" id="2t5-HT-Unt">
                             <connections>
-                                <segue destination="Lck-Bj-fZO" kind="push" id="wI6-5r-XNe"/>
+                                <segue destination="qU8-6r-swu" kind="push" id="Ohx-er-NlE"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -902,7 +883,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyc-9e-CfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2575" y="1853"/>
+            <point key="canvasLocation" x="2442" y="1693"/>
         </scene>
         <!--Confirm Session View Controller-->
         <scene sceneID="9EL-DM-cfB">
@@ -1042,12 +1023,11 @@
         <image name="icons8-User-50" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="uuK-AE-nV1"/>
         <segue reference="gvV-Wk-AeV"/>
-        <segue reference="heW-o0-Q6Z"/>
-        <segue reference="udn-MB-xri"/>
-        <segue reference="SJA-zF-LYw"/>
-        <segue reference="P2b-ev-WGt"/>
-        <segue reference="1C7-cb-M7d"/>
         <segue reference="8O3-b2-Uqz"/>
+        <segue reference="heW-o0-Q6Z"/>
+        <segue reference="71c-zT-6nq"/>
+        <segue reference="SJA-zF-LYw"/>
     </inferredMetricsTieBreakers>
 </document>
