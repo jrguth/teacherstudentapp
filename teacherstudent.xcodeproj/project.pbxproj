@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8035836F1FA26FE8006BA002 /* SkillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8035836E1FA26FE8006BA002 /* SkillTableViewCell.swift */; };
+		80B3AE971FA283270086566B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80B3AE961FA283260086566B /* GoogleService-Info.plist */; };
 		CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFACDE1F9913D800847B70 /* AppDelegate.swift */; };
 		CCBFACE11F9913D800847B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFACE01F9913D800847B70 /* ViewController.swift */; };
 		CCBFACE41F9913D800847B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBFACE21F9913D800847B70 /* Main.storyboard */; };
@@ -26,11 +27,12 @@
 		CCBFAD1E1F99331300847B70 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */; };
 		CCBFAD201F993F7F00847B70 /* teacherDataBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */; };
 		CCBFAD221F993F9B00847B70 /* TeacherProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */; };
-		CCBFAD241F993FD000847B70 /* pendingSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */; };
+		CCBFAD241F993FD000847B70 /* PendingSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD231F993FD000847B70 /* PendingSessionsViewController.swift */; };
 		CCBFAD261F993FEE00847B70 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD251F993FEE00847B70 /* SessionViewController.swift */; };
 		CCBFAD281F99412E00847B70 /* ConfirmSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */; };
 		CCBFAD2A1F9944BF00847B70 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD291F9944BF00847B70 /* SkillViewController.swift */; };
 		CCBFAD691FA2410B00847B70 /* SessionHistroyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */; };
+		F795678AAE301E144D2046B2 /* libPods-teacherstudent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 732B1ED346E723B1C794F5C8 /* libPods-teacherstudent.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		732B1ED346E723B1C794F5C8 /* libPods-teacherstudent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teacherstudent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8035836E1FA26FE8006BA002 /* SkillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTableViewCell.swift; sourceTree = "<group>"; };
+		80B3AE961FA283260086566B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		876A9835B460A9B23599296E /* Pods-teacherstudent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teacherstudent.release.xcconfig"; path = "Pods/Target Support Files/Pods-teacherstudent/Pods-teacherstudent.release.xcconfig"; sourceTree = "<group>"; };
 		CCBFACDB1F9913D800847B70 /* teacherstudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teacherstudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBFACDE1F9913D800847B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCBFACE01F9913D800847B70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,11 +81,12 @@
 		CCBFAD1D1F99331300847B70 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		CCBFAD1F1F993F7F00847B70 /* teacherDataBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = teacherDataBaseViewController.swift; sourceTree = "<group>"; };
 		CCBFAD211F993F9B00847B70 /* TeacherProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherProfileViewController.swift; sourceTree = "<group>"; };
-		CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pendingSessionsViewController.swift; sourceTree = "<group>"; };
+		CCBFAD231F993FD000847B70 /* PendingSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingSessionsViewController.swift; sourceTree = "<group>"; };
 		CCBFAD251F993FEE00847B70 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSessionViewController.swift; sourceTree = "<group>"; };
 		CCBFAD291F9944BF00847B70 /* SkillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
 		CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionHistroyViewController.swift; sourceTree = "<group>"; };
+		D1A5E6F75A1F3F43FC0CEF7C /* Pods-teacherstudent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teacherstudent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teacherstudent/Pods-teacherstudent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F795678AAE301E144D2046B2 /* libPods-teacherstudent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5657381E8882CC61420B4DBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5E6F75A1F3F43FC0CEF7C /* Pods-teacherstudent.debug.xcconfig */,
+				876A9835B460A9B23599296E /* Pods-teacherstudent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E2F8C181AAABFF4DAA06101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732B1ED346E723B1C794F5C8 /* libPods-teacherstudent.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CCBFACD21F9913D800847B70 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +139,8 @@
 				CCBFACF51F9913D800847B70 /* teacherstudentTests */,
 				CCBFAD001F9913D800847B70 /* teacherstudentUITests */,
 				CCBFACDC1F9913D800847B70 /* Products */,
+				5657381E8882CC61420B4DBC /* Pods */,
+				8E2F8C181AAABFF4DAA06101 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,7 +167,7 @@
 				CCBFAD191F9932C800847B70 /* loginViewController.swift */,
 				CCBFACE21F9913D800847B70 /* Main.storyboard */,
 				CCBFAD171F9921C200847B70 /* MessageViewController.swift */,
-				CCBFAD231F993FD000847B70 /* pendingSessionsViewController.swift */,
+				CCBFAD231F993FD000847B70 /* PendingSessionsViewController.swift */,
 				CCBFAD131F99212900847B70 /* ProfileViewController.swift */,
 				CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */,
 				CCBFAD251F993FEE00847B70 /* SessionViewController.swift */,
@@ -154,6 +180,7 @@
 				CCBFAD0F1F99210400847B70 /* TeacherViewController.swift */,
 				CCBFACE01F9913D800847B70 /* ViewController.swift */,
 				8035836E1FA26FE8006BA002 /* SkillTableViewCell.swift */,
+				80B3AE961FA283260086566B /* GoogleService-Info.plist */,
 			);
 			path = teacherstudent;
 			sourceTree = "<group>";
@@ -183,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCBFAD061F9913D800847B70 /* Build configuration list for PBXNativeTarget "teacherstudent" */;
 			buildPhases = (
+				A46D03CC4FB9FAF49182B63A /* [CP] Check Pods Manifest.lock */,
 				CCBFACD71F9913D800847B70 /* Sources */,
 				CCBFACD81F9913D800847B70 /* Frameworks */,
 				CCBFACD91F9913D800847B70 /* Resources */,
+				EA030E16586D4A828BD82A3D /* [CP] Embed Pods Frameworks */,
+				D0F8FCA275190D02AF02ECC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBFACEC1F9913D800847B70 /* LaunchScreen.storyboard in Resources */,
+				80B3AE971FA283270086566B /* GoogleService-Info.plist in Resources */,
 				CCBFACE91F9913D800847B70 /* Assets.xcassets in Resources */,
 				CCBFACE41F9913D800847B70 /* Main.storyboard in Resources */,
 			);
@@ -307,6 +338,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A46D03CC4FB9FAF49182B63A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teacherstudent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F8FCA275190D02AF02ECC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-teacherstudent/Pods-teacherstudent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA030E16586D4A828BD82A3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-teacherstudent/Pods-teacherstudent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCBFACD71F9913D800847B70 /* Sources */ = {
@@ -329,7 +411,7 @@
 				CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */,
 				CCBFACE71F9913D800847B70 /* teacherstudent.xcdatamodeld in Sources */,
 				CCBFAD2A1F9944BF00847B70 /* SkillViewController.swift in Sources */,
-				CCBFAD241F993FD000847B70 /* pendingSessionsViewController.swift in Sources */,
+				CCBFAD241F993FD000847B70 /* PendingSessionsViewController.swift in Sources */,
 				CCBFAD1E1F99331300847B70 /* ForgotViewController.swift in Sources */,
 				CCBFAD1A1F9932C800847B70 /* loginViewController.swift in Sources */,
 			);
@@ -483,6 +565,7 @@
 		};
 		CCBFAD071F9913D800847B70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A5E6F75A1F3F43FC0CEF7C /* Pods-teacherstudent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 625732G463;
@@ -496,6 +579,7 @@
 		};
 		CCBFAD081F9913D800847B70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876A9835B460A9B23599296E /* Pods-teacherstudent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 625732G463;

@@ -7,10 +7,9 @@
 //
 
 
-import Foundation
 import UIKit
 
-class pendingSessionsViewController: UIViewController {
+class PendingSessionsViewController: UIViewController {
     
    
     override func viewDidLoad() {
