@@ -789,10 +789,10 @@
             </objects>
             <point key="canvasLocation" x="-514" y="3072"/>
         </scene>
-        <!--View Controller-->
+        <!--Confirm Session View Controller-->
         <scene sceneID="pG1-0V-0VR">
             <objects>
-                <viewController id="zJk-n9-b3G" sceneMemberID="viewController">
+                <viewController id="zJk-n9-b3G" customClass="ConfirmSessionViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q8Y-O7-eFF"/>
                         <viewControllerLayoutGuide type="bottom" id="ZGP-E5-9C4"/>
@@ -826,10 +826,10 @@
             </objects>
             <point key="canvasLocation" x="306" y="2328"/>
         </scene>
-        <!--View Controller-->
+        <!--Request Session View Controller-->
         <scene sceneID="0mJ-xb-0zp">
             <objects>
-                <viewController id="edr-ER-KYT" sceneMemberID="viewController">
+                <viewController id="edr-ER-KYT" customClass="RequestSessionViewController" customModule="teacherstudent" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="O1h-bP-7mK"/>
                         <viewControllerLayoutGuide type="bottom" id="jXF-w2-WI3"/>
@@ -1130,9 +1130,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="aQp-4z-y8i"/>
         <segue reference="8O3-b2-Uqz"/>
-        <segue reference="heW-o0-Q6Z"/>
-        <segue reference="OJS-NI-mAa"/>
-        <segue reference="T7F-cM-yDU"/>
+        <segue reference="gDa-AN-dio"/>
         <segue reference="SJA-zF-LYw"/>
+        <segue reference="T7F-cM-yDU"/>
+        <segue reference="OJS-NI-mAa"/>
     </inferredMetricsTieBreakers>
 </document>

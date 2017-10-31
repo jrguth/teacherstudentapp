@@ -30,6 +30,8 @@
 		CCBFAD281F99412E00847B70 /* ConfirmSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */; };
 		CCBFAD2A1F9944BF00847B70 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD291F9944BF00847B70 /* SkillViewController.swift */; };
 		CCBFAD691FA2410B00847B70 /* SessionHistroyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */; };
+		CCBFAD6B1FA7FE0700847B70 /* RequestSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD6A1FA7FE0700847B70 /* RequestSessionViewController.swift */; };
+		CCBFAD6D1FA7FE5200847B70 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBFAD6C1FA7FE5200847B70 /* ConversationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSessionViewController.swift; sourceTree = "<group>"; };
 		CCBFAD291F9944BF00847B70 /* SkillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
 		CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionHistroyViewController.swift; sourceTree = "<group>"; };
+		CCBFAD6A1FA7FE0700847B70 /* RequestSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSessionViewController.swift; sourceTree = "<group>"; };
+		CCBFAD6C1FA7FE5200847B70 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 				CCBFACDE1F9913D800847B70 /* AppDelegate.swift */,
 				CCBFACE01F9913D800847B70 /* ViewController.swift */,
 				CCBFACE21F9913D800847B70 /* Main.storyboard */,
+				CCBFAD6C1FA7FE5200847B70 /* ConversationViewController.swift */,
+				CCBFAD6A1FA7FE0700847B70 /* RequestSessionViewController.swift */,
 				CCBFAD681FA2410B00847B70 /* SessionHistroyViewController.swift */,
 				CCBFAD291F9944BF00847B70 /* SkillViewController.swift */,
 				CCBFAD271F99412E00847B70 /* ConfirmSessionViewController.swift */,
@@ -312,6 +318,7 @@
 			files = (
 				CCBFAD1C1F9932E200847B70 /* SignUPViewController.swift in Sources */,
 				CCBFAD141F99212900847B70 /* ProfileViewController.swift in Sources */,
+				CCBFAD6D1FA7FE5200847B70 /* ConversationViewController.swift in Sources */,
 				CCBFAD121F99211700847B70 /* LearnViewController.swift in Sources */,
 				CCBFAD261F993FEE00847B70 /* SessionViewController.swift in Sources */,
 				CCBFAD181F9921C200847B70 /* MessageViewController.swift in Sources */,
@@ -324,6 +331,7 @@
 				CCBFACE11F9913D800847B70 /* ViewController.swift in Sources */,
 				CCBFACDF1F9913D800847B70 /* AppDelegate.swift in Sources */,
 				CCBFACE71F9913D800847B70 /* teacherstudent.xcdatamodeld in Sources */,
+				CCBFAD6B1FA7FE0700847B70 /* RequestSessionViewController.swift in Sources */,
 				CCBFAD2A1F9944BF00847B70 /* SkillViewController.swift in Sources */,
 				CCBFAD241F993FD000847B70 /* pendingSessionsViewController.swift in Sources */,
 				CCBFAD1E1F99331300847B70 /* ForgotViewController.swift in Sources */,
